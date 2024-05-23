@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Blog</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/pickufield-high-resolution-logo-white-removebg-preview.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="campo.html">CAMPOS</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Nuestras metas y objetivos<br>para todos ustedes</h1>
+    
+  </section>
+
+  <!--  blog -->
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="images/metas.jpg" alt="">
+        <h2>Nuestras metas y objetivos para todos ustedes</h2>
+        <p>Todo comenzó con una simple pregunta: ¿Cómo podríamos hacer más fácil la reserva de campos deportivos en Lima Metropolitana? Como amantes del deporte y la tecnología, nos dimos cuenta de que había una necesidad insatisfecha en nuestra comunidad. Los deportistas luchaban por encontrar y reservar campos deportivos de manera eficiente. Así nació la idea de nuestra aplicación. El camino hacia la realización de esta idea no fue fácil. Pasamos por un proceso de investigación exhaustivo, hablando con deportistas locales, propietarios de campos deportivos y expertos en tecnología. Queríamos entender completamente el problema antes de intentar solucionarlo.</p>
+        <br>
+        <p>Después de meses de trabajo duro, finalmente diseñamos un prototipo de nuestra aplicación. Pero eso fue solo el comienzo. Luego vino el desafío de la programación y el desarrollo, asegurándonos de que nuestra aplicación fuera fácil de usar, segura y eficiente. A lo largo de este proceso, enfrentamos muchos obstáculos. Hubo momentos de duda y frustración, pero nunca perdimos de vista nuestro objetivo final: hacer la vida de los deportistas en Lima Metropolitana un poco más fácil.</p>
+        <br>
+        <p>Hoy, estamos orgullosos de presentar nuestra aplicación de reserva de campos deportivos. Es el resultado de innumerables horas de trabajo, investigación y dedicación. Pero más que eso, es un testimonio de nuestra pasión por el deporte y la tecnología. Estamos emocionados de ver cómo nuestra aplicación cambiará la forma en que los deportistas reservan campos deportivos en Lima Metropolitana. Y aunque estamos orgullosos de lo que hemos logrado hasta ahora, sabemos que este es solo el comienzo. Seguiremos trabajando, mejorando y creciendo, siempre con el objetivo de servir mejor a nuestra comunidad deportiva.</p>
+        <br>
+        <p>Espero que esto te sirva como punto de partida. Si necesitas más detalles o algún otro tipo de contenido, no dudes en pedirlo. ¡Estoy aquí para ayudarte!</p>
+
+
+        <div class="comment-box">
+          <h3>Deja un comentario</h3>
+          <form action="" class="comment-form">
+            <input type="text" placeholder="Ingresa tu nombre">
+            <input type="email" placeholder="Ingresa tu correo">
+            <textarea rows="5" name="" id="" placeholder="Comentario"></textarea>
+            <button type="submit" class="hero-btn red-btn">ENVIAR COMENTARIO</button>
+          </form>
+        </div>
+      </div>
+      <div class="blog-right">
+        <h3>Secciones</h3>
+        <div>
+          <span>Expansión</span>
+          <span>+</span>
+        </div>
+        <div>
+          <span>Plan de negocio</span>
+          <span>+</span>
+        </div>
+        <div>
+          <span>Actualizaciones</span>
+          <span>+</span>
+        </div>
+        <div>
+          <span>Preguntas Frecuentes</span>
+          <span>+</span>
+        </div>
+        <div>
+          <span>Bugs</span>
+          <span>+</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Pie de pagina -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Creemos que virtualizar ciertos procesos pueden llegar a ocasionar un impacto positivo dentro de las vidas de miles de personas <br>. La iniciativa de PickUField es esa misma, que la tecnologia abra un nuevo camino en la sociedad y el dia a dia.</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Hecho con <i class="fa-regular fa-heart"></i> por Fabrizio Leon  </p>
+  </section>
+   <!---JavaScript for Toogle Menu-->
+   <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
